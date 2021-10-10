@@ -1,0 +1,4 @@
+@function getRelativemesurments($pxSize) {
+    $relSize: $pxSize * 100 * 1vw / 1920;
+    @return $relSize;
+}
