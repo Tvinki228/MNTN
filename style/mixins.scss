@@ -26,7 +26,7 @@
 }
 @mixin h2 {
     width:getRelativemesurments(555) ;
-    height:1getRelativemesurments(154) ;
+    height:getRelativemesurments(154) ;
     font-family: "Chronicle Display";
     font-size: getRelativemesurments(64);
     line-height: getRelativemesurments(77);
@@ -56,7 +56,7 @@
     text-align: left;
     background-image: url(../img/arrow_downward_24px.png);
     background-repeat: no-repeat;
-    background-size: getRelativemesurments(24) 2getRelativemesurments(16);
+    background-size: getRelativemesurments(24) getRelativemesurments(16);
     background-position: 100% center;
 }
 @mixin number {
