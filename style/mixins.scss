@@ -1,0 +1,71 @@
+@mixin row {
+    width: getRelativemesurments(1462);
+            display: flex;
+}
+@mixin img {
+    width: getRelativemesurments(566);
+    height: getRelativemesurments(720);
+}
+@mixin article {
+    width: getRelativemesurments(896);
+                height: getRelativemesurments(439);
+                padding: getRelativemesurments(141) getRelativemesurments(114) getRelativemesurments(140) getRelativemesurments(150);
+                position: relative;
+}
+@mixin h4 {
+    color: $color-yellow;
+                font-family: ExtraBold, Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: getRelativemesurments(18);
+                line-height: getRelativemesurments(22);
+                /* identical to box height */
+                letter-spacing: getRelativemesurments(6);
+                text-transform: uppercase;
+                margin-left: getRelativemesurments(96);
+                position: relative;       
+}
+@mixin h2 {
+    width:getRelativemesurments(555) ;
+    height:getRelativemesurments(154) ;
+    font-family: "Chronicle Display";
+    font-size: getRelativemesurments(64);
+    line-height: getRelativemesurments(77);
+    color: $color-white;
+    margin-top: getRelativemesurments(27);
+}
+@mixin p {
+    width: 100%;
+                height: getRelativemesurments(160);
+                font-family: Bold, Arial, Helvetica, sans-serif;
+                font-size: getRelativemesurments(18);
+                line-height: getRelativemesurments(32);
+                color: $color-white;
+                margin-top: getRelativemesurments(27);
+}
+@mixin read-more {
+    margin-top: getRelativemesurments(27);
+    background-color: $trans;
+    color: $color-yellow;
+    border: none;
+    font-family: Bold, Arial, Helvetica, sans-serif;
+    font-size: getRelativemesurments(18);
+    line-height: getRelativemesurments(22);
+    padding: 0;  
+    width: getRelativemesurments(127);
+    height: getRelativemesurments(22);
+    text-align: left;
+    background-image: url(../img/arrow_downward_24px.png);
+    background-repeat: no-repeat;
+    background-size: getRelativemesurments(24) getRelativemesurments(16);
+    background-position: 100% center;
+}
+@mixin number {
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center center;
+                width: getRelativemesurments(240);
+                height: getRelativemesurments(240);
+                position: absolute;
+                left: getRelativemesurments(38);
+                top: getRelativemesurments(38);
+}
